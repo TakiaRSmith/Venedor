@@ -1,0 +1,535 @@
+:root {
+  --ButtonColor: RGB(28, 182, 190);
+  --BannerColor1: RGB(229, 228, 226);
+  --BannerColor2: RGB(241, 240, 238);
+  --DiscountBG: RGB(242, 5, 145);
+  --SignUpBG: RGB(214, 214, 214);
+  --MyAccountBG: RGB(67, 75, 77);
+  --SocialListBG: RGB(99, 103, 102);
+  --HeaderListFont:'IBM Plex Sans KR', sans-serif;
+  --SubHeaderFont: 'BenchNine', sans-serif;
+  --SubHeaderCaption: 'Noto Sans JP', sans-serif;
+}
+
+/* icons */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+  
+
+.icon-search {
+  font-size: 30px;
+  color: gray;
+  padding: 6px;
+  border: 1px solid lightgray;
+  background-color:lightgray;
+}
+
+  /* close icons */
+
+/* header */
+
+.top-header-list-item {
+  list-style-type: none;
+  display: inline;
+  /* border: 1px solid blue; */
+}
+
+.text-top-list {
+  margin-top: -30px;
+  margin-left: 40px;
+  color: gray;
+  /* border: 1px solid red; */
+}
+.top-header-icon-link, .top-header-link {
+  color: gray;
+}
+
+.text-top-header {
+  /* display: inline; */
+  margin-right: 3px;
+  /* border: 1px solid green; */
+}
+.bottom-header-link {
+  color: black;
+}
+
+.logo-img {
+
+}
+
+.bottom-header {
+  padding-bottom: 10px;
+}
+
+.bottom-header-list {
+  font-family: var(--HeaderListFont);
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-bottom: 12px;
+  /* border: 1px solid green; */
+}
+
+.bottom-header-list-item {
+  list-style-type: none;
+  display: inline;
+  /* border: 1px solid orange; */
+}
+
+.button1, .button2 {
+  padding: 5px;
+  border: lightgrey;
+  background-color: lightgray;
+}
+
+.button1:hover, .button2:hover {
+  background-color: var(--ButtonColor);
+}
+
+.button-checkout{
+  padding: 5px;
+  color: white;
+  background-color: var(--ButtonColor);
+  border: var(--ButtonColor);
+}
+
+/* close header */
+
+
+  /* main */
+
+  .banner1-img {
+    width: 50%;
+  }
+
+  .banner-text {
+    padding-top: 20px;
+  }
+
+  .banner-subheader {
+    border: 1px solid var(--ButtonColor);
+    background-color: var(--ButtonColor);
+    color: white;
+    text-transform: uppercase;
+    width: 25%;
+  }
+
+  .banner-subheader2 {
+    border: 1px solid black;
+    background-color: black;
+    padding: 2px;
+    color: white;
+    font-size: 24px;
+    width: 40%;
+  }
+
+  .sub-header {
+    font-family: var(--SubHeaderFont);
+    border-left: 2px solid var(--ButtonColor);
+    padding-left: 5px;
+  }
+
+  .discount-section2 {
+    /* border: 1px solid red; */
+    color: white;
+    width: 10%;
+    background-color: var(--DiscountBG);
+  }
+
+  .text-section2 {
+    /* border: 1px solid red; */
+  }
+
+  .dollar-section2 {
+    border-radius: 50%;
+    width: 15%;
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--ButtonColor);
+    color:white;
+    /* border: 1px solid red; */
+  }
+
+  .add-button, .more-button, .shop-button{
+    background-color: RGB(67, 77, 78);
+    border-radius: 3px;
+    padding: 7px;
+  }
+
+  .add-link, .more-link, .shop-button-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+  }
+
+  .section6 {
+    background-color: var(--SignUpBG);
+  }
+
+  .sub-header-section6 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--SubHeaderCaption);
+  }
+
+  .email {
+    width: 170%;
+    padding: 8px;
+    background-color: var(--SignUpBG);
+    border: 3px solid yellow;
+  }
+
+  .button-signup {
+    background-color: gray;
+    padding: 5px;
+    border-radius: 3px;
+    
+  }
+
+  .signup-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .account-list, .information-list {
+    /* border: 1px solid red; */
+  }
+
+  .section7 {
+    font-family: var(--SubHeaderCaption);
+    background-color: var(--MyAccountBG);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section7-account-list, .section7-info-list {
+    padding: 0;
+    /* border: 1px solid yellow; */
+  }
+
+  .subheader-section7, .info-subheader-section7 {
+    color: white;
+    font-size: 18px;
+    padding-left: 22px;
+    /* border: 1px solid green; */
+    font-family: var(--SubHeaderCaption);
+  }
+
+  .section7-list-item {
+    list-style-type: square;
+    color: var(--ButtonColor);
+  }
+
+  .section7-link {
+    color: var(--SignUpBG);
+  }
+
+  .text-section7 {
+    color: white;
+  }
+
+/* footer */
+.footer {
+  border-top: 2px solid white;
+  background-color: var(--MyAccountBG);
+}
+
+.footer-list-item {
+  list-style-type: none;
+  display: inline;
+}
+
+.social {
+  color: white;
+  font-size: 32px;
+  border: 1px solid gray;
+  background-color: gray;
+  padding: 5px;
+}
+
+.colophon-text {
+  color: white;
+  font-size: 10px;
+}
+
+/* 576 */
+
+@media (max-width: 576px) {
+  .logo-img {
+    width: 250px;
+  }
+
+  .top-header-list, .bottom-header-list {
+    /* margin-right: 40px; */
+  }
+
+  .drop-down-menu-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .search {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:576px) {
+  
+  .heel-img {
+      margin-top: -40px;
+  }
+
+  .dollar-section {
+      margin-top: -100px;
+      /* border: 1px solid red; */
+  }
+
+  .devices-img {
+    width: 490px;
+    /* border: 1px solid red; */
+  }
+
+  .section3{
+    padding-bottom: 20px;
+    /* border: 1px solid blue; */
+  }
+
+  .section4 {
+    padding-bottom: 20px;
+  }
+
+  .section5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 1px solid red; */
+  }
+
+  .section1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .section1-img {
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .free-img {
+    margin-top: 10px;
+  }
+
+  .item1, .item2, .item-section4 {
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+  }
+    
+  .section2-img, .section4-img {
+    margin-right: 180px;
+    /* border: 1px solid green; */
+  }
+
+  .more-button {
+    margin-top: 20px;
+  }
+
+  .section4-img {
+    margin-top: -42px;
+    /* border: 1px solid red; */
+  }
+
+  .item1, .item2 {
+    padding-bottom: 15px;
+    /* border: 1px solid red; */
+  }
+
+  .item5, .item6 {
+    padding-bottom: 25px;
+    /* border: 1px solid blue; */
+  }
+
+  .section6 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .button-signup {
+    margin-left: 150px;
+  }
+
+  .subheader-section7 {
+    font-size: 18px;
+  }
+
+  .section7 {
+    padding-top: 80px;
+  }
+
+  .section7-list-item {
+    line-height: 2;
+  }
+
+  .account-list, .information-list {
+    padding-bottom: 30px;
+  }
+
+}
+
+@media(max-width:576px) {
+  .footer {
+    padding-top: 25px;
+  }
+}
+
+/* 768 */
+
+@media (min-width:768px) {
+  body {
+    width: 120%;
+    border: 1px solid red;
+  }
+
+  .top-header-list {
+    width: 110%;
+  }
+
+  .text-top-header {
+    margin-top: 10px;
+  }
+  .logo-img {
+    width: 225px;
+  }
+
+  .main-header {
+    padding-bottom: 15px;
+  }
+
+  .drop-down-menu-section {
+    margin-top: 35px;
+  }
+
+  .bottom-header-list {
+    font-size: 12px;
+    width: 120%;
+    padding: 0;
+    /* border: 1px solid red; */
+  }
+
+  .section1-img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .devices-img {
+    margin-top: 50px;
+    width: 400px;
+  }
+
+  .section2 {
+    padding-bottom: 35px;
+  }
+
+  .item1, .item3 {
+    /* border: 1px solid red; */
+  }
+
+  .item2, .item4, .item7, .item8 {
+    margin-top: 40px;
+    /* border: 1px solid red; */
+  }
+
+  .item7, .item8 {
+    margin-top: 42px;
+    /* border: 1px solid red; */
+  }
+
+   .item6 {
+     margin-top: 2px;
+    /* border: 1px solid red; */
+  }
+
+   {
+    margin-top: 40px;
+    border: 1px solid red;
+  }
+
+  .dollar-section2 {
+    padding-left: 40px;
+    padding-right: 40px; 
+    margin-top: -100px;
+    /* border: 1px solid red; */
+  }
+
+  .discount-section2 {
+    width: 25%;
+  }
+  .section3 {
+    padding-bottom: 20px;
+  }
+
+  .section4 {
+    padding-bottom: 40px;
+  }
+
+  .section5 {
+    padding-bottom: 25px;
+  }
+
+  .section6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .sub-header-section6 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .button-signup {
+    margin-left: 80px;
+  }
+
+  .section7 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .img-placeholder {
+    margin-left: 25px;
+  }
+
+  .account-list, .information-list{
+    line-height: 2;
+  }
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .colophon-text {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+            <div class="row">
+                <div class="col-md-3 text-sm-center item1">
+                    <p class="discount-section2">-30%</p>
+                    <img src="media/heelrbg.png" alt="img-fluid" class="section2-img heel-img" />
+                    <div class=" d-flex justify-content-sm-center dollar-section">
+                        <p class="text-sm-center dollar-section2">$60</p>
+                    </div>
+                    <p class="text-sm-center text-section2">Lorem ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                </div>
+                <div class="col-md-3 text-sm-center item2">
+                    <img src="media/jacket.jpg" alt="img-fluid" class="section2-img jacket-img" />
+                    <div class="d-flex justify-content-sm-center dollar-section">
+                        <p class="text-sm-center dollar-section2">$72</p>
+                    </div>
+                    <p class="text-sm-center text-section2">Lorem, ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                    <button class="d-flex justify-content-sm-center d-none d-sm-block d-md-none more-button"><a class="more-link" href="#link">More</a></button>
+                </div>
+                <div class="col-md-3 d-sm-none d-md-block item3">
+                    <p class="discount-section2">-30%</p>
+                    <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid" />
+                    <p class="dollar-section2">$99</p>
+                    <p class="text-section2">Lorem, ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                </div>
+                <div class="col-md-3 d-sm-none d-md-none item4">
+                    <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid" />
+                    <p class="dollar-section2">$280</p>
+                    <p class="text-section2">Lorem, ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 text-sm-center item5">
+                    <p class="text-sm-center discount-section2">New</p>
+                    <img src="media/heel2.jpg" alt="img-fluid" class="section4-img" />
+                    <div class="d-flex justify-content-sm-center dollar-section">
+                        <p class="text-sm-center dollar-section2">$60</p>   
+                    </div>
+                    <p class="text-section4">Lorem ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                </div>
+                <div class="col-md-3 text-sm-center item6">
+                    <p class="text-sm-center discount-section2">-20%</p>
+                    <img src="media/sweater2.jpg" alt="img-fluid" class="section4-img" />
+                    <div class="d-flex justify-content-sm-center dollar-section">
+                        <p class="text-sm-center dollar-section2">$72</p>
+                    </div>
+                    <p class="text-section4">Lorem, ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                    <button class="d-flex justify-content-sm-center d-none d-sm-block d-md-none more-button"><a class="more-link" href="#link">More</a></button>
+                </div>
+                <div class="col-md-3 d-block d-sm-none item7">
+                    <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid" />
+                    <p class="dollar-section2">$99</p>
+                    <p class="text-secion4">Lorem, ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                </div>
+                <div class="col-md-3 d-block d-sm-none item8">
+                    <img src="https://via.placeholder.com/250x250" alt="placeholder img" class="img-fluid" />
+                    <p class="dollar-section2">$280</p>
+                    <p class="text-secion4">Lorem, ipsum.</p>
+                    <button class="add-button"><a class="add-link" href="#link">Add to Cart</a></button>
+                </div>
+            </div>
