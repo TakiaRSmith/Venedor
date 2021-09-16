@@ -60,7 +60,6 @@
 }
 
 .text-top-header {
-  /* display: inline; */
   margin-right: 3px;
   /* border: 1px solid green; */
 }
@@ -150,10 +149,6 @@
     background-color: var(--DiscountBG);
   }
 
-  .text-section2 {
-    /* border: 1px solid red; */
-  }
-
   .dollar-section2 {
     border-radius: 50%;
     width: 15%;
@@ -206,10 +201,6 @@
     color: white;
     text-transform: uppercase;
     font-size: 14px;
-  }
-
-  .account-list, .information-list {
-    /* border: 1px solid red; */
   }
 
   .section7 {
@@ -274,10 +265,6 @@
 @media (max-width: 576px) {
   .logo-img {
     width: 250px;
-  }
-
-  .top-header-list, .bottom-header-list {
-    /* margin-right: 40px; */
   }
 
   .drop-down-menu-section {
@@ -402,7 +389,7 @@
 @media (min-width:768px) {
   body {
     width: 120%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .top-header-list {
@@ -442,10 +429,6 @@
 
   .section2 {
     padding-bottom: 35px;
-  }
-
-  .item1, .item3 {
-    /* border: 1px solid red; */
   }
 
   .item2, .item4, .item7, .item8 {
